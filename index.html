@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer & Athlete</title>
+    <meta name="description"
+        content="Personal portfolio showcasing web design, development, fitness journey, and travels.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="light-theme">
+
+    <div class="cursor"></div>
+
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a href="#home" class="logo">GiulianoDoorten.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#fitness">Fitness</a></li>
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" aria-label="Toggle Dark Mode">◑</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-content reveal">
+                <p class="small-caps">Athlete & Digital/ Social media Creator</p>
+                <h1>Building (digital) <br><i>experiences</i> that<br>feel REAL.</h1>
+                <p style="margin-top: var(--space-md);">
+                    Web dev & content creator mixing code, fashion, fitness, and travel. Building fast, accessible
+                    digital experiences and documenting the grind on TikTok.
+                </p>
+            </div>
+        </div>
+        <div class="hero-img-container">
+            <img src="photos/20250929_081727.jpg" alt="Portrait of GiulianoDoorten" class="hero-img">
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="reveal">Beyond the Code</h2>
+            <div class="bento-grid">
+                <div class="bento-item bento-large reveal delay-100">
+                    <h3>My Story</h3>
+                    <p>I’m a creator and web developer building my life around momentum. I split my time between coding
+                        websites, exploring fashion and content creation, and pushing myself in the
+                        gym. Each area feeds the other the discipline from training sharpens my focus in development,
+                        and the creativity from design flows into how I show up online.
+
+                        I document process on TikTok: learning, building, failing, improving. Whether it’s refining
+                        a layout, dialing in my workflow, or chasing the next PR, I’m driven by growth through
+                        consistency. I don’t just make content or write code I build systems for progress and share
+                        the journey as I go.</p>
+                </div>
+
+                <div class="bento-item reveal delay-200">
+                    <h3>Quick Facts</h3>
+                    <ul style="list-style: none; color: var(--color-text-muted); line-height: 2;">
+                        <li>📍 Amsterdam, NL</li>
+                        <li>💻 Fullstack Focus</li>
+                        <li>🎓 M.Sc. CompSci</li>
+                        <li>☕ Cortado Enthusiast</li>
+                    </ul>
+                </div>
+
+                <div class="bento-item bento-tall reveal delay-300" style="background: var(--color-bg-alt);">
+                    <div>
+                        <p class="small-caps">Life Defining Moment</p>
+                        <h3>Arkansas Exchange</h3>
+                        <p>Spending my exchange year in Arkansas taught me adaptability and gratitude. Living in a small
+                            town, attending Lead Hill High School, and becoming part of the warmest host family I could
+                            imagine showed me the power of community. From making lifelong friends to discovering new
+                            perspectives on life, this year reshaped how I see the world and left me with memories I’ll
+                            never forget.</p>
+                    </div>
+                    <div
+                        style="margin-top:20px; height: 200px; background: #ddd; border-radius: 4px; display:grid; place-items:center;">
+                        [Arkansas Photo]</div>
+                </div>
+
+                <div class="bento-item bento-large reveal delay-100">
+                    <div style="display: flex; gap: 8px; height: 100%;">
+                        <div style="flex:1; background:#eee; border-radius:4px;"></div>
+                        <div style="flex:1; background:#eee; border-radius:4px;"></div>
+                        <div style="flex:1; background:#eee; border-radius:4px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" style="background-color: var(--color-bg-alt);">
+        <div class="container">
+            <h2 class="reveal">Experience</h2>
+            <div class="timeline reveal delay-200">
+
+                <article class="job-card">
+                    <div class="job-header">
+                        <span class="job-title">Senior Frontend Engineer</span>
+                        <span class="job-company">TechFlow Agency | 2022 - Present</span>
+                    </div>
+                    <p>Spearheading the migration to React 18 for enterprise clients. Reduced load times by 40% across
+                        major e-commerce platforms. Mentoring 3 junior developers.</p>
+                </article>
+
+                <article class="job-card">
+                    <div class="job-header">
+                        <span class="job-title">Creative Developer</span>
+                        <span class="job-company">Studio Monochrome | 2020 - 2022</span>
+                    </div>
+                    <p>Collaborated with designers to implement award-winning Awwwards sites. Specialized in WebGL
+                        interactions and smooth scrolling architectures.</p>
+                </article>
+
+                <article class="job-card">
+                    <div class="job-header">
+                        <span class="job-title">Junior Developer</span>
+                        <span class="job-company">Freelance | 2018 - 2020</span>
+                    </div>
+                    <p>Delivered 15+ custom WordPress and Shopify themes for small businesses. Learned the art of client
+                        communication and project management.</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <div class="container">
+            <h2 class="reveal">Certifications</h2>
+
+            <div class="filter-controls reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="tech">Tech</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+            </div>
+
+            <div class="grid-layout reveal delay-100">
+                <div class="card" data-category="tech">
+                    <div class="card-img-placeholder">[AWS Cert Image]</div>
+                    <div class="card-content">
+                        <h3>AWS Solutions Architect</h3>
+                        <p class="small-caps">Amazon Web Services • 2024</p>
+                        <a href="#" style="color: var(--color-accent); text-decoration: none; font-size: 0.9rem;">View
+                            Credential →</a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="tech">
+                    <div class="card-img-placeholder">[Google UX Image]</div>
+                    <div class="card-content">
+                        <h3>Google UX Design</h3>
+                        <p class="small-caps">Google / Coursera • 2023</p>
+                        <a href="#" style="color: var(--color-accent); text-decoration: none; font-size: 0.9rem;">View
+                            Credential →</a>
+                    </div>
+                </div>
+
+                <div class="card" data-category="business">
+                    <div class="card-img-placeholder">[Agile Image]</div>
+                    <div class="card-content">
+                        <h3>Certified Scrum Master</h3>
+                        <p class="small-caps">Scrum Alliance • 2022</p>
+                        <a href="#" style="color: var(--color-accent); text-decoration: none; font-size: 0.9rem;">View
+                            Credential →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fitness" style="background-color: var(--color-text-main); color: var(--color-bg);">
+        <div class="container">
+            <h2 class="reveal" style="color: #fff;">Discipline in Motion</h2>
+            <p class="reveal" style="color: #ccc;">The gym is my laboratory for self-improvement. Tracking data and
+                progressive overload keeps me grounded.</p>
+
+            <div class="stats-grid reveal delay-100">
+                <div class="stat-item">
+                    <h4>140kg</h4>
+                    <span>Squat PR</span>
+                </div>
+                <div class="stat-item">
+                    <h4>105kg</h4>
+                    <span>Bench PR</span>
+                </div>
+                <div class="stat-item">
+                    <h4>180kg</h4>
+                    <span>Deadlift PR</span>
+                </div>
+                <div class="stat-item">
+                    <h4>21:30</h4>
+                    <span>5K Run</span>
+                </div>
+            </div>
+
+            <div class="grid-layout reveal delay-200">
+                <div class="card" style="border:none; background: #333;">
+                    <div class="card-img-placeholder" style="background: #444; height: 300px;">[Gym Progress Photo 1]
+                    </div>
+                </div>
+                <div class="card" style="border:none; background: #333;">
+                    <div class="card-img-placeholder" style="background: #444; height: 300px;">[Gym Progress Photo 2]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="travel">
+        <div class="container">
+            <h2 class="reveal">Global Footprint</h2>
+
+            <div class="reveal delay-100"
+                style="width: 100%; height: 400px; background: var(--color-bg-alt); margin-bottom: var(--space-lg); border-radius: 12px; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                <div style="text-align: center; color: var(--color-text-muted);">
+                    <p style="margin: 0; font-weight: 600;">[Interactive Map Integration]</p>
+                    <p style="font-size: 0.8rem;">Markers: Arkansas (USA), Tokyo (Japan), Berlin (Germany)</p>
+                </div>
+            </div>
+
+            <div class="grid-layout reveal delay-200">
+                <div class="card">
+                    <div class="card-img-placeholder" style="height: 250px;">[Tokyo Night Street]</div>
+                    <div class="card-content">
+                        <h3>Tokyo, Japan</h3>
+                        <p class="small-caps">Oct 2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-placeholder" style="height: 250px;">[Iceland Waterfall]</div>
+                    <div class="card-content">
+                        <h3>Vik, Iceland</h3>
+                        <p class="small-caps">Feb 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="background-color: var(--color-bg-alt);">
+        <div class="container">
+            <div style="max-width: 600px; margin: 0 auto;">
+                <h2 class="reveal">Let's Connect</h2>
+                <p class="reveal">Whether you have a project in mind or just want to chat about strength training
+                    protocols, my inbox is open.</p>
+
+                <form class="reveal delay-200" action="#" method="POST"
+                    onsubmit="event.preventDefault(); alert('Thank you! This is a demo form.');">
+                    <div class="form-group">
+                        <label for="name" class="small-caps">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="small-caps">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="small-caps">Message</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+
+                <div style="margin-top: var(--space-xl); display: flex; gap: var(--space-md); justify-content: center;"
+                    class="reveal delay-300">
+                    <a href="#" style="color: var(--color-text-main);">LinkedIn</a>
+                    <a href="#" style="color: var(--color-text-main);">GitHub</a>
+                    <a href="#" style="color: var(--color-text-main);">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="padding: var(--space-lg) 0; text-align: center; border-top: 1px solid var(--color-border);">
+        <p class="small-caps" style="margin: 0;">© 2025 Alex Doe. Crafted with code.</p>
+    </footer>
+
+
+</body>
+
+</html>
